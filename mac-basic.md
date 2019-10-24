@@ -2,14 +2,21 @@
 
 ### Move your data (from old system to new)
 
-### Software installation
+### Installation
 
-#### Sublime
+#### Install Brew
+    
+  ```
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  ```
+  [More details](https://brew.sh)
 
-#### Bravo browser
 
-#### Slack
+#### Install oh-my-zsh
 
-#### SequalPro
+  ```
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  ```
+  [More details](https://github.com/robbyrussell/oh-my-zsh)
 
-#### GitX
+
