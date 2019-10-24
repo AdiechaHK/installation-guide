@@ -97,9 +97,14 @@ If it's installed in home directory then, we need to export it's path
 #### Sharing setting
 
 Check following options
-- Screen Share
-- File Share
-- Remote Login
+- [x] Screen Sharing
+- [x] File Sharing
+- [ ] Print Sharing
+- [x] Remote Login
+- [ ] Remote Management
+- [ ] Remote Apple Events
+- [ ] Internet Sharing
+- [ ] Content Caching
 
 _Others should be unchecked_
 
