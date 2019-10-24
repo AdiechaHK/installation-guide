@@ -22,9 +22,9 @@
 
 #### Import Terminal theme
 
-    - Open Terminal
-    - Goto menu `Terminal` -> `Preferances` -> `Profile`
-    - import this theme [HK-Terminal](HK.terminal)
+- Open Terminal
+- Goto menu `Terminal` -> `Preferances` -> `Profile`
+- import this theme [HK-Terminal](HK.terminal)
     
     
   
