@@ -66,6 +66,26 @@ install php or check php version and if it is older then install via brew and li
 
 #### Mysql
 
+install mysql for that create a directory with name `/dockermysqldata`(in root)
+
+then run the following cmd with the specific version of mysql:
+
+    docker run --name docker-mysql -v /dockermysqldata:/var/lib/mysql -p 3306:3306/tcp -c 900 -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -d mysql:5.7.9
+
+and set path on `docker -> preference -> file sharing as (‘/dockermysqldata’)`
+
+After that run `docker start <container>` to start mysql container
+
+if it gives error like:
+
+```chown: changing ownership of '/var/lib/mysql/': Operation not permitted```
+
+to resolve this run:
+
+    sudo chown -R $(whoami):staff /dockermysqldata
+
+again start container and add Name as `localhost`, Host as `127.0.0.1` and Username as `root` in SequelPro.
+
 
 #### Composer
 
