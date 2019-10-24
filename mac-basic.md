@@ -20,3 +20,11 @@
   [More details](https://github.com/robbyrussell/oh-my-zsh)
 
 
+#### Import Terminal theme
+
+    - Open Terminal
+    - Goto menu `Terminal` -> `Preferances` -> `Profile`
+    - import this theme [HK-Terminal](HK.terminal)
+    
+    
+  
